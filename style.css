@@ -222,6 +222,46 @@ input[type=submit]{
 /* card */
 
 
+/* Sign up */
+.sign {
+    width: 70%;
+    height: 400px;
+    background-color: black;
+    border-radius: 8px;
+    color: white;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.sign .col{
+    width: 50%;
+}
+.sign h1{
+    text-align: center;
+}
+.sign .col form ul{
+    display: block;
+
+}
+.sign .col ul li{
+    margin: auto;
+    align-items: center;
+    padding: 10px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sign input[name=nom],input[name=prenom],input[name=email],input[name=password]{
+    margin-top: 10px;
+    text-align: center;
+    border: none;
+    padding: 5px 30px;
+}
+
+/* Sign up */
+
 /* media query small */
 @media (min-width: 768px) {
     .container {
